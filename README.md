@@ -2,7 +2,7 @@
 
 This repository simulates a library condition where the actual library is in the repo root, and a demo site that uses this library is located in the folder "website."
 
-As soon as the `keyframes` helper is imported in the library, the styling from the library stops working on the website.
+As soon as the `keyframes` helper is [used in the library](https://github.com/danistefanovic/styled-components-keyframes-bug/blob/master/index.js#L4), the styling from the library stops working [on the website](https://github.com/danistefanovic/styled-components-keyframes-bug/blob/master/website/src/App.js#L24).
 
 
 ## Steps to reproduce
