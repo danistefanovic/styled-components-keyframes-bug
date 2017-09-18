@@ -1,0 +1,18 @@
+{
+  "name": "styled-components-keyframes-bug",
+  "version": "1.0.0",
+  "main": "dist.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js --out-file dist.js"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
