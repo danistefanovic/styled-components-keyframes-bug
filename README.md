@@ -42,10 +42,8 @@ yarn start
 The text on the gray background should be red and rotating.
 
 
-# Actual Behavior
+## Actual Behavior
 
-The text is neither red nor rotating. As soon as `keyframes`is removed from index.js, the text on the website becomes red.
-
-Make sure to run `yarn build` in the root when making changes to index.js.
+The text is neither red nor rotating. As soon as `keyframes`is removed from index.js, the text on the website becomes red. Make sure to run `yarn build` in the root when making changes to index.js.
 
 
