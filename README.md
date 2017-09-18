@@ -23,7 +23,7 @@ yarn build
 ```
 
 3. Link library in website
-```
+```sh
 # Register our library
 yarn link
 
@@ -32,7 +32,7 @@ cd website/ && yarn link "styled-components-keyframes-bug"
 ```
 
 4. Start the web app
-```
+```sh
 yarn start
 ```
 
